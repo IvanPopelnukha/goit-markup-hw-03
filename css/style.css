@@ -69,6 +69,7 @@ img {
     padding-top: 24px;
     padding-bottom: 25px;
     border-bottom: 1px solid var(--header-border);
+    
 }
 .header-flex {
     display: flex;
@@ -101,7 +102,8 @@ img {
     margin-right: 0;
 }
 .nav-menu{
-    
+    padding-top: 32px;
+    padding-bottom: 32px;
 
     color: var(--primary-text-color); 
     font-weight: 500;
