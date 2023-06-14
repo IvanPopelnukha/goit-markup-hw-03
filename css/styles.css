@@ -98,8 +98,7 @@ img {
 .nav {
     display: flex;
 
-    padding-top: 24px;
-    padding-bottom: 24px;
+    
 
     font-weight: 500;   
 }
@@ -108,9 +107,10 @@ img {
     color: var(--ocean-color);
 }
 .nav .nav-link {
+    padding-top: 24px;
+    padding-bottom: 24px;
     margin-right: 40px;
     
-
     color: var(--navy-blue-color);
 }
 .nav .nav-link:last-child {
@@ -184,7 +184,7 @@ img {
     background-color: var(--ocean-color);
 }
 /* features section */
-.header-none {
+.visually-hidden {
 visibility: hidden;
 }
 .features {
@@ -242,8 +242,7 @@ visibility: hidden;
     background-color: var(--cloud-color);
 }
 .team-header {
-    padding-top: 120px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 
     color: var(--navy-blue-color);
 
@@ -257,8 +256,6 @@ visibility: hidden;
 }
 .team-block {
     display: flex;
-
-    padding-bottom: 120px;
 
     text-align: center;
 }
