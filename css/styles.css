@@ -68,12 +68,19 @@ img {
 
     border-bottom: 1px solid var(--cornflower-color);
 }
+.header-flex {
+    display: flex;
+    align-items: center;
+}
 .nav-flex {
     display: flex;
+    align-items: center;
 }
 .logo{
     padding-top: 24px;
     padding-bottom: 24px;
+    
+    margin-right: 76px;
 
     color: var(--iris-color);
 
@@ -86,7 +93,7 @@ img {
     text-transform: uppercase;
 }
 .logo-header {
-    margin-right: 76px;
+    
 
     color: var(--navy-blue-color);
 }
@@ -111,8 +118,8 @@ img {
     margin-right: 0;
 }
 .address {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    /* padding-top: 24px;
+    padding-bottom: 24px; */
 
     margin-left: auto;
 
@@ -120,6 +127,8 @@ img {
 }
 .address-list {
     display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .address .item {
     color: var(--slate-color);
