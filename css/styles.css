@@ -98,6 +98,9 @@ img {
 .nav {
     display: flex;
 
+    padding-top: 24px;
+    padding-bottom: 24px;
+
     font-weight: 500;   
 }
 .nav .item:hover ,
@@ -106,8 +109,7 @@ img {
 }
 .nav .nav-link {
     margin-right: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    
 
     color: var(--navy-blue-color);
 }
@@ -295,6 +297,7 @@ visibility: hidden;
 .footer-logo {
     display: inline-block;
     margin-bottom: 16px;
+    
     color: var(--iris-color);
 
     font-family: 'Raleway', sans-serif;
