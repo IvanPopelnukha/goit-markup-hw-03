@@ -257,7 +257,7 @@ visibility: hidden;
 .team-block {
     display: flex;
 
-    text-align: center;
+    
 }
 .team-card {
     
@@ -271,8 +271,15 @@ visibility: hidden;
 .team-block .team-card:last-child {
     margin-right: 0;
 }
+.team-info {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+    padding-right: 16px
+}
 .team-person {
-    margin-top: 32px;
+    text-align: center;
+    margin-bottom: 8px;
 
     color: var(--navy-blue-color);
     font-weight: 500;
@@ -281,9 +288,7 @@ visibility: hidden;
     letter-spacing: 0.02em;
 }
 .team-position {
-    margin-top: 8px;
-    margin-bottom: 32px;
-    
+    text-align: center;
 }
 /* Footer site */
 .footer {
