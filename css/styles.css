@@ -123,7 +123,10 @@ img {
 }
 .address-list {
     display: flex;
-    padding-top: 24px;
+   
+}
+.address-link {
+     padding-top: 24px;
     padding-bottom: 24px;
 }
 .address .item {
@@ -185,7 +188,9 @@ img {
 }
 /* features section */
 .visually-hidden {
-visibility: hidden;
+    visibility: hidden;
+    pointer-events: none;
+    position: absolute;
 }
 .features {
     display: flex;
@@ -255,12 +260,9 @@ visibility: hidden;
     text-align: center
 }
 .team-block {
-    display: flex;
-
-    
+    display: flex;   
 }
 .team-card {
-    
     margin-right: 24px;
 
     background-color: var(--white-color);
@@ -373,15 +375,15 @@ visibility: hidden;
     margin-bottom: 0;
 }
 .border {
-    padding-top: 32px;
-    padding-bottom: 32px;
-    padding-left: 16px;
+    padding: 32px 16px;
 
     border-left: 1px solid var(--cornflower-color);
     border-right: 1px solid var(--cornflower-color);
     border-bottom: 1px solid var(--cornflower-color);
 }
 .project-title {
+    margin-bottom: 8px;
+
     color: var(--navy-blue-color);
     font-weight: 500;
     font-size: 20px;
@@ -389,6 +391,5 @@ visibility: hidden;
     letter-spacing: 0.02em;
 }
 .project-text {
-    margin-top: 8px;
     color: var(--slate-color);  
 }
