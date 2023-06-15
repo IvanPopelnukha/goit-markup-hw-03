@@ -98,7 +98,8 @@ img {
 .nav {
     display: flex;
 
-    
+    padding-top: 24px;
+    padding-bottom: 24px;
 
     font-weight: 500;   
 }
@@ -107,8 +108,6 @@ img {
     color: var(--ocean-color);
 }
 .nav .nav-link {
-    padding-top: 24px;
-    padding-bottom: 24px;
     margin-right: 40px;
     
     color: var(--navy-blue-color);
@@ -123,11 +122,11 @@ img {
 }
 .address-list {
     display: flex;
-   
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .address-link {
-   padding-top: 24px;
-   padding-bottom: 24px; 
+    
 }
 .address .item {  
     color: var(--slate-color);
@@ -188,7 +187,7 @@ img {
 }
 /* features section */
 .visually-hidden {
-    visibility: hidden;
+    display: none;
 }
 .features {
     display: flex;
