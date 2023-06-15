@@ -125,11 +125,10 @@ img {
     display: flex;
    
 }
-.address-link {
-     padding-top: 24px;
+.address .item {  
+    padding-top: 24px;
     padding-bottom: 24px;
-}
-.address .item {
+    
     color: var(--slate-color);
 }
 .address .item:hover,
