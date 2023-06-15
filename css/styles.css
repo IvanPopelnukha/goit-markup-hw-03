@@ -128,7 +128,7 @@ img {
 .address .item {  
     padding-top: 24px;
     padding-bottom: 24px;
-    
+
     color: var(--slate-color);
 }
 .address .item:hover,
@@ -187,9 +187,7 @@ img {
 }
 /* features section */
 .visually-hidden {
-    visibility: hidden;
-    pointer-events: none;
-    position: absolute;
+    display: none;
 }
 .features {
     display: flex;
