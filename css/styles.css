@@ -98,10 +98,13 @@ img {
 .nav {
     display: flex;
 
-    padding-top: 24px;
-    padding-bottom: 24px;
+    
 
     font-weight: 500;   
+}
+.nav .item {
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .nav .item:hover ,
 .nav .item:focus {
@@ -118,17 +121,21 @@ img {
 .address {
     margin-left: auto;
 
+   
+
     font-style: normal;
 }
 .address-list {
     display: flex;
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
-.address-link {
     
 }
+.address-link {
+     
+}
 .address .item {  
+    padding-top: 24px;
+    padding-bottom: 24px;
+
     color: var(--slate-color);
 }
 .address .item:hover,
